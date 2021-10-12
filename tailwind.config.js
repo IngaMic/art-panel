@@ -10,6 +10,7 @@ module.exports = {
         borderColor: (theme) => theme("colors"),
         borderColor: {
             d4: "#d4d4d4",
+            wh: "white",
         },
         extend: {},
     },

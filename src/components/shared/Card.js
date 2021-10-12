@@ -1,6 +1,7 @@
-function Card() {
+function Card(props) {
+    const { width } = props;
     return (
-        <article className="max-w-xs bg-white text-black border border-d4">
+        <article className={`bg-white text-black border border-d4 ${width}`}>
             <header>
                 <img
                     className="w-full border-b border-d4"
