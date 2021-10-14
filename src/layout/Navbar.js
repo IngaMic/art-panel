@@ -6,7 +6,7 @@ export const Navbar = () => {
     };
     return (
         <>
-            <nav className="flex justify-end flex-wrap bg-white sticky top-0">
+            <nav className="flex justify-end flex-wrap bg-white sticky top-0 border-b">
                 <button
                     className=" inline-flex py-4 -mr-3 md:p-4 rounded lg:hidden hover:text-grey outline-none"
                     onClick={handleClick}
@@ -42,7 +42,10 @@ export const Navbar = () => {
                                 <div className="top-0 h-20 w-32 bg-black text-white">
                                     Soup
                                 </div>
-                                <div className="h-10 w-32 bg-black border-t border-wh"></div>
+                                <div className="border-b w-100"></div>
+                                <div className="h-10 w-32 bg-black border-t border-wh">
+                                    Soup Two
+                                </div>
                             </div>
                         </a>
                                

@@ -4,6 +4,7 @@ module.exports = {
     theme: {
         textColor: (theme) => theme("colors"),
         textColor: {
+            white: "#ffffff",
             primary: "#3490dc",
             secondary: "#757575",
         },
